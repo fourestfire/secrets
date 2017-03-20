@@ -1,0 +1,28 @@
+{
+  "name": "secrets",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nunjucks": "^3.0.0",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.25.0"
+  },
+  "description": "_Secrets_ is an application where you can anonymously share your deepest,  darkest secrets with the entire internet and have people comment on them. This is totally a good idea where nothing can go wrong.",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullstackAcademy/secrets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/secrets/issues"
+  },
+  "homepage": "https://github.com/FullstackAcademy/secrets#readme"
+}
